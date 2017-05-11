@@ -1,0 +1,37 @@
+
+
+#body {
+
+	background-image: url(../TESSST/topography.png);
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777777;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #E7E7E7;
+    color: #555555;
+}
+}
+
+.logo {
+	background-color: #4aaaa5;
+}
+
+.tacos {
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	margin-top: 25px;
+}
+
+#profileimage {
+	height:200px; 
+	width:200px; 
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
