@@ -2,21 +2,13 @@
 
 #body {
 
-	background-image: url(../TESSST/topography.png);
+	background-image: url(../HW/Basic_Portfolio/topography.png);
 }
 
-.navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
+.navcolor {
+	background-color: green;
 }
-.navbar-default .navbar-nav > li > a {
-    color: #777777;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #E7E7E7;
-    color: #555555;
-}
-}
+
 
 .logo {
 	background-color: #4aaaa5;
@@ -35,3 +27,4 @@
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 5px;
+}
