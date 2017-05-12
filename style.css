@@ -2,7 +2,7 @@
 
 #body {
 
-	background-image: url(../Bootstrap_Portfolio/topography.png);
+	background-image: url(../Bootstrap_Portfolio/images/topography.png);
 }
 
 .navcolor {
@@ -75,7 +75,51 @@ hr {
 	margin-bottom: 5px;
 }
 
+.portpic {
+	margin-bottom: 10px;
+	
+}
 
+.container {
+  position: relative;
+}
+
+.image {
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 2;
+  left: -2;
+  right: 2;
+ height: 40%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #99cc00;
+}
+
+.contain:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  }
 
 footer {
 	padding: 75px;
@@ -83,5 +127,5 @@ footer {
   font-size: 12px;
  color: black;
   text-align: center;
-	background-image: url(../Bootstrap_Portfolio/footerimage.png);
+	background-image: url(../Bootstrap_Portfolio/images/footerimage.png);
 }
