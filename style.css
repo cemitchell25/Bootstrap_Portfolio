@@ -28,10 +28,11 @@
 	border-width: 2px;
 	border-color: black;
 	border-style: solid;
-	margin-top: 25px;
 	background-color: #e6e6e6;
 	 box-shadow: 5px 5px 5px #888888;
+	 margin-top: 25px;
 	 border-radius: 15px;
+	 margin-bottom: 30px;
 
 }
 
@@ -39,8 +40,8 @@
 	border-width: 2px;
 	border-color: black;
 	border-style: solid;
-	margin-top: 25px;
 	padding-bottom: 15px;
+	margin-top: 25px;
 	background-color: #e6e6e6;
 	box-shadow: 5px 5px 5px #888888;
 	border-radius: 15px;
@@ -68,8 +69,8 @@ hr {
 
 
 #profileimage {
-	height:200px; 
-	width:200px; 
+	height:150px; 
+	width:150px; 
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 5px;
@@ -128,4 +129,6 @@ footer {
  color: black;
   text-align: center;
 	background-image: url(../Bootstrap_Portfolio/images/footerimage.png);
+
 }
+
